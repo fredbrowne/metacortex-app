@@ -32,3 +32,7 @@ const Firebase = firebase.initializeApp(firebaseConfig)
 
 export default Firebase
 ```
+
+
+
+
