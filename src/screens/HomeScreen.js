@@ -1,12 +1,59 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native'
+import { Dimensions, View, Text, StyleSheet } from 'react-native'
 import SearchBar from '../components/SearchBar';
+/* Icons Import */
+import { Feather, SimpleLineIcons, FontAwesome, FontAwesome5 } from '@expo/vector-icons'
+
+const DeviceWidth = Dimensions.get('window').width
 
 const HomeScreen = () => {
     return (
         <View style={styles.background}>
             <SearchBar />
-            <Text>Home Screen</Text>
+            <View style={{
+                marginTop: 10,
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+                }}>
+                <View style={{
+                flexDirection: 'row',
+                backgroundColor: "white"}}>
+                <View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2, marginBottom:1 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2, marginBottom:1 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                </View>
+                <View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2, marginBottom:1 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2, marginBottom:1 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                </View>
+                <View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2, marginBottom:1 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2, marginBottom:1 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                    <View style={{width: DeviceWidth*0.2, height: DeviceWidth*0.2 }} >
+                        <FontAwesome5 name="calculator" size='50px'/>
+                    </View>
+                </View>    
+                </View>
+            </View>
         </View>
     );
 };
