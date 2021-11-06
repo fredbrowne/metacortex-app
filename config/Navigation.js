@@ -18,10 +18,10 @@ const AppTabsScreen = () => (
         screenOptions={{
             tabBarActiveTintColor: '#fa8072',
         }}>
-        <AppTabs.Screen name="Calendar" component={CalendarScreen} options={{
+        {/*<AppTabs.Screen name="Calendar" component={CalendarScreen} options={{
           tabBarIcon: ({ color, size }) => (
             <Feather name="calendar" color={color} size={size} />
-        )}}/>
+        )}}/>*/}
         <AppTabs.Screen name="Calculator" component={CalculatorScreen} options={{
             tabBarIcon: ({ color, size }) => (
                 <SimpleLineIcons name="calculator" color={color} size={size} />
@@ -35,10 +35,10 @@ const AppTabsScreen = () => (
                 tabBarIcon: ({ color, size }) => (
                 <FontAwesome5 name="book-medical" color={color} size={size} />
         )}}/>
-        <AppTabs.Screen name="Profile" component={ProfileScreen} options={{
+        {/*<AppTabs.Screen name="Profile" component={ProfileScreen} options={{
             tabBarIcon: ({ color, size }) => (
                 <FontAwesome name="user" color={color} size={size} />
-        )}}/>
+            )}}/>*/}
     </AppTabs.Navigator>
 );
 
