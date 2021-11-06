@@ -41,6 +41,19 @@ export default StyleSheet.create({
         justifyContent: 'center', 
         alignItems: 'center'
     },
+    buttonCalc: {
+        flex: 1,
+        flexDirection: 'row', 
+        justifyContent: 'center', 
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        backgroundColor: "#56aa9d"
+    },
+    IconButton: {
+        marginTop: 15,
+        flexDirection: 'row', 
+        justifyContent: 'space-evenly'
+    },
     twoIcons: {
         marginTop: 50,
         flexDirection: 'row', 
