@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MetacortexApp",
-    "slug": "MetacortexApp",
+    "name": "nurse-bag",
+    "slug": "nurse-bag",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
